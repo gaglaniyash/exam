@@ -1,0 +1,91 @@
+1. a) Javascript is a popular scripting language which is used for making websites and web applications.
+	Features of javascript:
+	-Dynamic 
+	-Easy to use
+	-highly efficient
+	-user friendly
+
+   b)  ES6 is the latest versions of javascript in which new keywords like let and const where introduced.
+	 ES6 has higher performance compared to ES5.
+	 Object manipulation is less time coonsuming in ES6
+	large range of community support.
+
+	 ES5 is the fifth version of javascript defined by ecma international
+	ES6 has lower performance compared to ES5.
+	Object manipulation is time consuming in ES5
+	smaller range of community support compared to ES5.
+
+2. a) Variable are like containers which are used to hold any value.
+	 Variable can be declared using three ways: let, var and const.
+
+   b)	 There are two types of datatypes in javascript: Primitive and non-primitive
+	Primitive datatypes:
+	-Number
+	-String
+	-Boolean
+	-Undefined
+	-Null
+
+	Non-Primitive datatypes:
+	-Object
+	-Array
+	-Function
+
+3. a) '==' opertor is used to check the equality of two values whereas '===' operator is used to check the equality as well as datype of the values.
+   E.g let a = 4
+	  let b = '4'
+	 console.log(4 == 4)
+	console.log(4 === 4)
+
+   b) Logical operators are used to determine the logic between variables and values.
+  E.g let x = 5
+	  let y = 6
+	 let z = 8
+	console.log(!(x || y && z))
+
+Programs:
+
+1) let a = 20
+    let b = 30
+   a = a + b
+   b = a - b
+   a = a - b
+   console.log(a, b)
+   Output: 20, 30
+
+2) let marks = 75; 
+   if(marks >= 90){
+	console.log("A")
+    }
+   else if(marks > 80 && marks < 89){
+	console.log("B")
+    }
+  else if(marks > 70 && marks < 79){
+	console.log("C")
+    }
+  else(marks < 70){
+	console.log("D")
+    }
+
+3) let cost = 200;
+    let tax = 0.05;
+    let tip = 0.10;
+    let costincludingtax = 200 * 0.05 + cost;
+    let costwithtaxandtip = costincludingtax * tip;
+    let totalamount = cost + costwithtaxandtip;
+    console.log(totalamount);
+    Output: 210
+
+4) let p = 10000;
+    let r = 0.10;
+    let t = 3;
+    let simpleinterest =  (p*r*t) / 100;
+   console.log(simpleinterest);
+   Output: 30
+
+5) let bs = 20000;
+    let hra = 0.20 * bs;
+    let da = 0.10 * bs;
+    let totalsalary = bs + hra + da;
+    console.log(totalsalary);
+   Output: 6000
